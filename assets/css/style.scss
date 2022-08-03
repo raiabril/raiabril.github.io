@@ -52,3 +52,6 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
     }
 }
 
+#topbar, #main {
+    max-width: 80% !important;
+}
