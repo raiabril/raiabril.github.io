@@ -17,8 +17,8 @@ Now it's time to start the active scanning.
 As always, we define our TARGET and hosts file of our machine to facilitate the process.
 
 ```console
-TARGET=<ip_of_the_machine>
-sudo nano /etc/hosts # Add a line with the machine IP /t antique.htb
+TARGET=10.129.73.196
+echo "10.129.73.196 redeemer.htb" | sudo tee -a /etc/hosts
 ```
 
 We launch a single `TCMP` probe to check ping.
@@ -43,17 +43,11 @@ nmap -n -Pn -sV -p- $TARGET -vvv -oG allPorts
 
 ## Maintaining access
 
-### Installation
-
 ### Command and Control
 
 ## Privilege escalation / lateral movements
 
 ## Exfiltration
-
-## Maintaining access
-
-Not needed as we are talking of a HTB machine...
 
 ## Covering tracks
 
