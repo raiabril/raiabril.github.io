@@ -210,7 +210,7 @@ stty rows 136
 
 ### Check important files
 
-In `/etc/passwd` we see no users except root with access to a bash or zsh, we can see that the user is a specific user for the printer `svc_acc`, with no login.
+In `/etc/passwd` we see no users except root with access to a bash or zsh, we can see that the user is a specific user for the printer `lpd`, with no login.
 
 We do some actions
 
