@@ -27,6 +27,16 @@ We launch a single `TCMP` probe to check ping.
 ping -c 1 $TARGET		# => Ping is working
 ```
 
+### NMAP
+
+To scan the `target` to find open ports and possible vulnerabilities we use `nmap`.
+
+First, simple `TCP` scan without `DNS` resolution and ping discovery, to all the ports and with the version detection.
+
+```console
+nmap -n -Pn -sV -p- $TARGET -vvv -oG allPorts
+```
+
 ## Gaining access
 
 ## Internal reconnaissance
