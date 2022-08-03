@@ -1,7 +1,7 @@
 ---
 title: HTB Antique
 date: 2022-08-03 20:55:00 +0800
-categories: [HTB]
+categories: [HTB, Easy]
 tags:
   [
     Network,

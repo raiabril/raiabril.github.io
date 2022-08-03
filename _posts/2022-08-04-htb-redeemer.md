@@ -1,7 +1,7 @@
 ---
 title: HTB Redeemer
 date: 2022-08-04 00:55:00 +0800
-categories: [HTB]
+categories: [HTB, Starting Point]
 tags: [Linux, Redis, Enumeration, Anonymous/Guest access, HTB]
 pin: false
 ---
