@@ -1,10 +1,12 @@
 ---
 title: Hydra
-date: 2022-08-03 20:55:00 +0800
-categories: [HTB]
+date: 2022-08-03 21:55:00 +0800
+categories: [Tools]
 tags: [Hydra, SSH, FTP, MySQL, Web]
 pin: false
 ---
+
+![hydra-pass](/assets/img/posts/hydra-contrasenas.webp)
 
 ## Web forms
 
@@ -21,6 +23,7 @@ The options are:
 - `-p` password
 - `-P` passwordList
 - `-f` exit at the first successful result server, where to attack service
+- `t` number of threads to run in parallel
 - `http-post-form` service.
 
 Another example with `http-get`
