@@ -136,7 +136,7 @@ snmpwalk -v 1 -c public 10.10.11.107 .1.3.6.1.4.1.11.2.3.9.1.1.13.0
 
 The response returns the password in HEX that can be converted in plain text using [CyberChef](https://cyberchef.org).
 
-# Gaining access
+## Gaining access
 
 We use the password to access using Telnet.
 
@@ -236,7 +236,7 @@ Usually this process is a `CUPS` web interface, we can verify by launching a cur
 curl "http://localhost:631/"
 ```
 
-# Privilege escalation
+## Privilege escalation
 
 A possible way to read server files is using the error log from `CUPS`. Error logs from the CUPS can be accessed using:
 
@@ -260,10 +260,10 @@ cupsctl ErrorLog="/root/root.txt"
 
 And then, we launch the curl again to see the flag.
 
-# Maintaining access
+## Maintaining access
 
 Not needed as we are talking of a HTB machine...
 
-# Covering tracks
+## Covering tracks
 
 Not needed as we are talking of a HTB machine...
