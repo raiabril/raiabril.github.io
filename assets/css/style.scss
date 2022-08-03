@@ -1,0 +1,54 @@
+---
+---
+
+/*
+  If the number of TAB files has changed, the following variable is required.
+  And it must be defined before `@import`.
+*/
+$tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
+
+@import "{{ site.theme }}";
+
+[data-mode="dark"] {
+    --main-wrapper-bg: #2e3440 !important;
+    --sidebar-bg: #3b4252 !important;
+    --link-color: #88c0d0 !important;
+    --post-list-text-color: #eceff4 !important;
+    --sidebar-active-color: #eceff4 !important;
+    --sidebar-muted-color: #d8dee9 !important;
+    --text-color: #eceff4 !important;
+    --text-muted-color: #d8dee9 !important;
+    --topbar-wrapper-bg:#2e3440 !important;
+    --search-wrapper-bg: #4c566a !important;
+    --search-wrapper-border-color: #4c566a !important;
+    --card-header-bg:#3b4252 !important;
+    --label-color: #d8dee9 !important;
+    --heading-color: #8fbcbb !important;
+    --tag-border: #5e81ac !important;
+    --tag-shadow: #5e81ac !important;
+    --tag-bg: #5e81ac !important;
+    
+    .text-muted {
+        color: #d8dee9 !important;
+    }
+    #panel-wrapper .post-tag:hover {
+        background-color: #5e81ac !important;
+    }
+
+    #sidebar a{
+        color:#d8dee9 !important;
+    }
+
+    #sidebar .btn {
+        color:#d8dee9 !important;
+    }
+
+    #breadcrumb {
+        color: #d8dee9 !important;
+    }
+
+    #archives li:nth-child(odd) {
+        background-image: none !important;
+    }
+}
+
