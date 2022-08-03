@@ -23,7 +23,7 @@ timezone: Europe/Madrid
 
 title: NaosInfoSec                          # the main title
 
-tagline: Ethical hacking blog and technical documentation.  # it will display as the sub-title
+tagline: Technology and Ethical hacking blog.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Ethical hacking blog and technical documentation.
