@@ -21,21 +21,21 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: NaosInfoSec                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Ethical hacking blog and technical documentation.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Ethical hacking blog and technical documentation.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://raiabril.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: raiabril             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: Raiskv            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -44,8 +44,8 @@ social:
   email: example@doamin.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/Raiskv      # change to your twitter homepage
+    - https://github.com/raiabril       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
