@@ -27,6 +27,11 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
     --tag-border: #5e81ac !important;
     --tag-shadow: #5e81ac !important;
     --tag-bg: #5e81ac !important;
+    --card-bg: #2e3440 !important;
+
+    #related-posts .card {
+        border-color: #eceff4 !important;
+    }
     
     .text-muted {
         color: #d8dee9 !important;
@@ -50,6 +55,8 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
     #archives li:nth-child(odd) {
         background-image: none !important;
     }
+
+
 }
 
 #topbar, #main {
