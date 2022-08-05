@@ -1,7 +1,7 @@
 ---
 title: HTB Responder
 date: 2022-08-04 01:55:00 +0800
-categories: [HTB]
+categories: [HTB, Starting Point]
 tags: [SAMBA, Apache, WinRM, Enumeration]
 pin: false
 ---
