@@ -8,6 +8,8 @@ pin: false
 
 ![responder-htb](https://www.hackthebox.com/storage/avatars/0348ed41851064f497d155c2a6af359a.png)
 
+In this machine we will experiment with SMB relay attacks using a remote file inclusion in a website and connecting through Windows remote management system.
+
 ## Scanning and enumeration
 
 Now it's time to start the active scanning.
