@@ -1,5 +1,5 @@
 ---
-title: HTB Template
+title: HTB Nibbles
 date: 2022-08-08 23:58:00 +0800
 categories: [HTB]
 tags: [HTB, Easy, External, Nibbleblog, CVE-2015.6967, A06:2021-Vulnerable And Outdated Components]
