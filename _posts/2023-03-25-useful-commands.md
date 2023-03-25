@@ -1,6 +1,6 @@
 ---
 title: Useful commands
-date: 2023-03-25 20:55:00 +0800
+date: 2023-03-24 20:55:00 +0800
 categories: [HTB]
 tags: [Commands]
 pin: false
