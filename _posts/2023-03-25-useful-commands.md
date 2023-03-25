@@ -16,3 +16,8 @@ sudo nc -nvlp 4444
 sudo rlwrap nc -nvlp 443
 ```
 
+## Listening web service
+
+```console
+sudo python3 -m http.server 80
+```
